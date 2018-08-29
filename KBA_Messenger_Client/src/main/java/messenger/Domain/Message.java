@@ -23,7 +23,7 @@ public class Message implements Serializable {
 	private Long messageId;
 
 	@Column(name = "TEXT")
-	private String text;;
+	private String text;
 	
 	@Column(name = "TIMESTAMP")
 	private Timestamp timestamp;
