@@ -30,7 +30,7 @@ public class Chat implements Serializable {
 	@GeneratedValue
     @Id
     @Column(name = "CHAT_ID")
-    private Long chatId;
+    private Long chatId;;
     
     @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(name = "USER_CHAT",
