@@ -23,7 +23,7 @@ public class ChatDaoImpl implements ChatDao, Serializable {
 	private EntityManager em;
 
 	public EntityManager getEm() {
-		return em;;
+		return em;
 	}
 	
 	public <T> void persistObject(T entity) {
